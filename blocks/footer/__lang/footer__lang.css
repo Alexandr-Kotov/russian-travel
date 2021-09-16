@@ -1,0 +1,9 @@
+@media screen and (max-width: 767px) {
+    .footer__lang{
+        margin-bottom: 32px;
+    }
+}
+
+.footer__lang:last-child{
+    margin: 0;
+}
