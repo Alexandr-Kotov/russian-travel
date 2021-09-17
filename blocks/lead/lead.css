@@ -2,7 +2,6 @@
     display: flex;
     flex-wrap: wrap;
     max-width: 984px;
-    max-height: 1005px;
     margin: 0 auto;
     padding: 0 48px;
 }
