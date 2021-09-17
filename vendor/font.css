@@ -9,5 +9,12 @@
     font-family: "Inter";
     src: url("./Inter/Inter-Bold.woff2") format("woff2"), url("./Inter/Inter-Bold.woff") format("woff");
     font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("./Inter/Inter-ExtraBold.woff2") format("woff2"), url("./Inter/Inter-ExtraBold.woff") format("woff");
+    font-style: normal;
     font-weight: 900;
 }
