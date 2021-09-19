@@ -2,7 +2,7 @@
     text-decoration: none;
     font-weight: 400;
     font-size: 16px;
-    line-height: 93%;
+    line-height: 1.12;
     color: #FFFF;
     margin-right: 18px;
 }
@@ -11,7 +11,7 @@
     .footer__link{
         margin: 0;
         font-size: 24px;
-        line-height: 83%;
+        line-height: 1.0;
     }
 }
 

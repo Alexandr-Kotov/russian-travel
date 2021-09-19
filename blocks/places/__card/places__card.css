@@ -1,6 +1,6 @@
 .places__card{
     max-width: 984px;
-    margin: 80px auto 0;
+    margin: 0 auto 80px;
     padding: 0 48px;
     display: grid;
     grid-template-areas: 
@@ -8,6 +8,10 @@
     "image text";
     row-gap: 48px;
     column-gap: 40px;
+}
+
+.places__card:last-child{
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 1279px) {
@@ -20,11 +24,13 @@
     .places__card{
         padding: 0 24px;
         column-gap: 28px;
+        margin: 0 auto 73px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .places__card{
+        margin: 0 auto 50px;
         row-gap: 32px;
         padding: 0;
         grid-template-areas: 

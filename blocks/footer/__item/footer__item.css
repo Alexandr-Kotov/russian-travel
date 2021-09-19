@@ -1,9 +1,9 @@
 @media screen and (max-width: 767px) {
-    .footer__lang{
+    .footer__item{
         margin-bottom: 32px;
     }
 }
 
-.footer__lang:last-child{
+.footer__item:last-child{
     margin: 0;
 }
